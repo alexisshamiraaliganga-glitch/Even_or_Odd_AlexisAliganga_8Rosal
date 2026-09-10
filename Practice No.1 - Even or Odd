@@ -1,0 +1,8 @@
+#Practice No.1 - Even or Odd
+#UI_wnum = UserInput_WholeNumber
+UI_wnum = int(input("Enter a whole number: "))
+
+if UI_wnum % 2 == 0:
+    print(UI_wnum, "is even")
+else:
+    print(UI_wnum, "is odd")
